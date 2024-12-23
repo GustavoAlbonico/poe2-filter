@@ -512,6 +512,7 @@ Show
 #------------------------------------
 
 Hide
+	Rarity Magic Normal
 	Class == "Body Armours" "Helmets" "Gloves" "Boots" "Shields" "Foci"
 	AreaLevel > 60
 	Continue
@@ -522,6 +523,7 @@ Hide
 #------------------------------------
 
 Show
+	Rarity Magic Normal
 	Class == "Helmets"
     BaseType == "Expert Chain Tiara" "Expert Cowled Helm" "Expert Elite Greathelm" "Expert Face Mask" "Expert Feathered Tiara" "Expert Felt Cap" "Expert Guarded Helm" "Expert Heavy Crown" "Expert Horned Crown" "Expert Hunter Hood" "Expert Martyr Crown" "Expert Shielded Helm" "Expert Soldier Greathelm" "Expert Spired Greathelm" "Expert Swathed Cap" "Expert Tribal Mask" "Expert Veiled Mask" "Expert Wicker Tiara"
 	SetFontSize 30
@@ -536,6 +538,7 @@ Show
 #------------------------------------
 
 Show
+	Rarity Magic Normal
 	Class == "Gloves"
     BaseType ==  "Expert Aged Cuffs" "Expert Gauze Wraps" "Expert Intricate Gloves" "Expert Jewelled Gloves" "Expert Ringmail Gauntlets" "Expert Riveted Mitts" "Expert Rope Cuffs" "Expert Sombre Gloves"
 	SetFontSize 30
@@ -550,6 +553,7 @@ Show
 #------------------------------------
 
 Show
+	Rarity Magic Normal
 	Class == "Boots"
     BaseType == "Expert Feathered Sandals" "Expert Frayed Shoes" "Expert Iron Greaves" "Expert Mail Sabatons" "Expert Padded Leggings" "Expert Silk Slippers" "Expert Stone Greaves" "Expert Trimmed Greaves" "Expert Wrapped Sandals"
 	SetFontSize 30
@@ -564,6 +568,7 @@ Show
 #------------------------------------
 
 Show
+	Rarity Magic Normal
 	Class == "Shields" "Foci"
     BaseType == "Expert Antler Focus" "Expert Braced Tower Shield" "Expert Crystal Focus" "Expert Jingling Crest Shield" "Expert Omen Crest Shield" "Expert Pelage Targe" "Expert Plumed Focus" "Expert Sigil Crest Shield"
 	SetFontSize 30
@@ -578,6 +583,7 @@ Show
 #------------------------------------
 
 Show
+	Rarity Magic Normal
 	Class == "Body Armours"
     BaseType == "Expert Altar Robe" "Expert Cloaked Mail" "Expert Hexer's Robe" "Expert Iron Cuirass" "Expert Keth Raiment" "Expert Pathfinder Coat" "Expert Pelt Mantle" "Expert Rogue Armour" "Expert Scale Mail" "Expert Scalper's Jacket" "Expert Serpentscale Coat" "Expert Steel Plate" "Expert Studded Vest" "Expert Vaal Cuirass" "Expert Waxed Jacket" "Expert Wayfarer Jacket"
 	SetFontSize 30
@@ -592,7 +598,8 @@ Show
 #------------------------------------
 
 Hide
-	Class == "Bows" "Claws" "Daggers" "One Hand Axes" "One Hand Maces" "Two Hand Axes" "Two Hand Maces" "Wands" "Quarterstaves" "Crossbows" "Spears" "Flails" "Sceptres" "Staves"
+	Rarity Magic Normal
+	Class == "Bows" "Claws" "Daggers" "One Hand Axes" "One Hand Maces" "Two Hand Axes" "Two Hand Maces" "Wands" "Quarterstaves" "Crossbows" "Spears" "Flails" "Sceptres" "Staves" "Quivers"
 	AreaLevel > 60
 	Continue
 
@@ -601,6 +608,7 @@ Hide
 #------------------------------------
 
 Show
+	Rarity Magic Normal
 	Class == "Quarterstaves" "Crossbows" "Bows" "Wands" "Staves"
     BaseType == "Expert Barrier Quarterstaff" "Expert Crackling Quarterstaff" "Expert Crescent Quarterstaff" "Expert Gothic Quarterstaff" "Expert Long Quarterstaff" "Expert Slicing Quarterstaff" "Expert Bombard Crossbow" "Expert Dyad Crossbow" "Expert Forlorn Crossbow" "Expert Sturdy Crossbow" "Expert Tense Crossbow" "Expert Varnished Crossbow" "Expert Cultist Bow" "Expert Dualstring Bow" "Expert Shortbow" "Expert Warden Bow" "Expert Zealot Bow" "Attuned Wand" "Siphoning Wand" "Chiming Staff"
 	SetFontSize 30
