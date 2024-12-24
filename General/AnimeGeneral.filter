@@ -95,9 +95,10 @@ Show
 	SetBackgroundColor 255 255 255 255
 	GemLevel > 18
 	SetFontSize 38
-	PlayAlertSound 6 50
 	PlayEffect Red
 	MinimapIcon 1 Red Star
+	CustomAlertSoundOptional "niconiconi.mp3" 300
+
 
 #===============================================================================================================
 #  Waystone Tablet
@@ -113,7 +114,7 @@ Show
 	SetBackgroundColor 255 255 255 255
 	PlayEffect Red
 	MinimapIcon 1 Red Square
-CustomAlertSoundOptional "daisuki.mp3" 300
+CustomAlertSoundOptional "ayaya.mp3" 300
 
 Show
     BaseType "Waystone"
@@ -153,7 +154,7 @@ Show
 	SetBackgroundColor 200 200 200 255
     PlayEffect White
     MinimapIcon 1 White Square
-	CustomAlertSoundOptional "daisuki.mp3" 300
+	CustomAlertSoundOptional "daisuki.mp3" 200
 
 Show
 	Class == "Tablet"
@@ -172,7 +173,29 @@ CustomAlertSoundOptional "baka.mp3" 300
 
 Show 
 	Class == "Stackable Currency"
-	BaseType == "Divine Orb" "Mirror of Kalandra" "Perfect Jeweller's Orb" "Albino Rhoa Feather" "Mirror Shard"
+	BaseType == "Mirror of Kalandra"
+	SetFontSize 45
+	SetTextColor 255 0 0 255
+	SetBorderColor 255 0 0 255
+	SetBackgroundColor 255 255 255 255
+	PlayEffect Red
+	MinimapIcon 0 Red Star
+CustomAlertSoundOptional "yamete.mp3" 300
+
+Show 
+	Class == "Stackable Currency"
+	BaseType == "Perfect Jeweller's Orb" "Mirror Shard"
+	SetFontSize 45
+	SetTextColor 255 0 0 255
+	SetBorderColor 255 0 0 255
+	SetBackgroundColor 255 255 255 255
+	PlayEffect Red
+	MinimapIcon 0 Red Star
+CustomAlertSoundOptional "a.mp3" 300
+
+Show 
+	Class == "Stackable Currency"
+	BaseType == "Divine Orb" "Perfect Jeweller's Orb" "Mirror Shard"
 	SetFontSize 45
 	SetTextColor 255 0 0 255
 	SetBorderColor 255 0 0 255
@@ -488,7 +511,7 @@ Show
 	SetTextColor 255 255 255 255
 	SetBorderColor 255 255 255 255
 	SetBackgroundColor 240 90 35 255
-	PlayAlertSound 2 300
+	PlayAlertSound 2 200
 	PlayEffect Orange
 	MinimapIcon 1 White Circle
 
